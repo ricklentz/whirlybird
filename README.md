@@ -1,7 +1,7 @@
 # whirlybird
 Demo and tests field deployable approaches for &lt;200ms object inference from RF sourced, encrypted OFDM video transmissions.  
 
-Orthogonal frequency-division multiplexing (OFDM) is a method of digital signal modulation in which a single data stream is split across several separate narrowband channels at different frequencies to reduce interference and crosstalk.  Whirlybird assumes dual band (2.4 and 5.8 GHz) reception of OFDM intermixed with frequency hopping spread spectrum which is used for drone control.  
+Orthogonal frequency-division multiplexing (OFDM) is a method of digital signal modulation in which a single data stream is split across several separate narrowband channels at different frequencies to reduce interference and crosstalk.  Whirlybird assumes dual band (2.4 and 5.8 GHz) reception of OFDM frames intentionally interspersed with a frequency hopping spread spectrum (FHSS) control signal.  
 
 ## Initial Requirements (RF to ByteStream)   
 Identify the strongest OFDM centerband transmission  
