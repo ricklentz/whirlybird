@@ -13,6 +13,8 @@ Remove the cyclic prefix
 Demux the header    
 Perform forward error correction on the stream  
 Serialize the data stream  
+Decrypt the byte stream from the data stream  
+Measure and visualize the effects of the FHSS signal on the error corrected, OFDM sourced byte stream  
 
-## Sample Implementation using GNURadio  
+## Starter Implementation using GNURadio  
 ![alt text](Ofdm_rx_core.png)  
