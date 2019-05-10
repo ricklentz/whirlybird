@@ -1,10 +1,10 @@
 # whirlybird
-Demo and tests field deployable approaches for &lt;200ms object inference from RF sourced, encrypted OFDM video transmissions.  
+Demonstrate and test various field deployable approaches for &lt;200ms object inference from RF sourced, encrypted OFDM video transmissions.  
 
 Orthogonal frequency-division multiplexing (OFDM) is a method of digital signal modulation in which a single data stream is split across several separate narrowband channels at different frequencies to reduce interference and crosstalk.  Whirlybird assumes dual band (2.4 and 5.8 GHz) reception of OFDM frames intentionally interspersed with a frequency hopping spread spectrum (FHSS) control signal.  
 
 ## Initial Requirements (RF to ByteStream)   
-Identify the strongest OFDM centerband transmission (OFDM Video Carrier) 
+Identify the strongest OFDM centerband transmission (OFDM Video Carrier)  
 Use a FFT to shift the OFDM symbols into the frequency domain  
 Identify the OFDM signal parameters for coarse frequency correction and channel estimation  
 Correct for fine frequency offset  
